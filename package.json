@@ -1,0 +1,11 @@
+{
+  "name": "painel-de-recados",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite ./painel-de-recados"
+  },
+  "devDependencies": {
+    "vite": "^8.3.5"
+  }
+}

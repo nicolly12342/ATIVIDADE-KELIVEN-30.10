@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel de Recados</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        <h1>Painel de Recados</h1>
+        <p>Organize comunicados da turma com clareza ✨</p>
+      </div>
+
+      <div class="input-container">
+        <input type="text" id="inputRecado" placeholder="Digite um recado" onkeypress="verificarEnter(event)">
+      </div>
+
+      <div id="listaRecados" class="lista-recados">
+        <!-- Os recados serão inseridos dinamicamente aqui -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
